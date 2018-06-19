@@ -1,0 +1,168 @@
+:root {
+  --primaryColor: #445963;
+  --primaryLightColor: #708690;
+  --primaryDarkColor: #1b3039;
+
+  --secondaryColor: #0097a7;
+  --secondaryLightColor: #56c8d8;
+  --secondaryDarkColor: #006978;
+
+  --primaryTextColor: #ffffff;
+  --secondaryTextColor: #000000;
+
+  --surfaceColor: #ffffff;
+  --backgroundColor: #ffffff;
+
+  font-family: sans-serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroundColor);
+}
+
+header {
+  display: grid;
+  text-align: center;
+  background-color: var(--primaryDarkColor);
+  color: var(--primaryTextColor);
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 4px 0;
+  font-size: 150%;
+}
+
+nav {
+  background-color: var(--primaryColor);
+  color: var(--primaryTextColor);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.6);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  color: currentColor;
+  font-size: 100%;
+  text-decoration: none;
+  padding: 10px 12px;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+main {
+  background-color: #f5f5f5;
+  color: #212121;
+  padding: 0;
+  margin: 0;
+}
+
+main h1 {
+  text-align: center;
+  padding: 1em;
+  margin: 0;
+}
+
+main h2 {
+  text-align: center;
+  padding: 1em;
+  margin: 0;
+}
+
+main p {
+  padding: 0 5vw;
+}
+
+a[role="button"] {
+  text-align: center;
+  background-color: #ff533d;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+a[role="button"]:hover {
+  background-color: rgba(255, 83, 61);
+}
+
+.tutorial {
+  display: grid;
+  grid-template-areas: "img title" "img content" "btn btn";
+  grid-template-columns: auto 1fr;
+}
+
+.mod {
+  display: grid;
+  grid-template-areas: "img title" "img content" "btn btn";
+  grid-template-columns: auto 1fr;
+}
+
+.card {
+  background-color: #0f1626;
+  color: #efefef;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.card h1 {
+  grid-area: title;
+  margin: 0;
+  padding: 1em;
+}
+
+.card p {
+  grid-area: content;
+  margin: 0;
+  padding: 1em;
+}
+
+.card img {
+  grid-area: img;
+  margin: 0;
+  padding: 1em;
+}
+
+.card a[role="button"] {
+  grid-area: btn;
+  margin: 0;
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  background-color: #ff533d;
+  color: #f5f5f5;
+}
+
+footer a {
+  display: inline-block;
+  min-width: 120px;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+footer a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
