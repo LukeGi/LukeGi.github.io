@@ -8,6 +8,12 @@
   <title>Blue Monster Forge Tutorials</title>
   <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+
+  <style>
+  pre {
+    overflow-x: auto;
+  }
+  </style>
 </head>
 
 <body class="blue-grey lighten-5">
@@ -43,7 +49,7 @@
         </p>
       </div>
       <div class="col s12 m6">
-        <div class="card grey lighten-4 materialboxed">
+        <div class="card grey lighten-4">
           <div class="card-content">
             <span class="card-title">
               Intellij IDEA
@@ -56,12 +62,12 @@
             </strong></p>
           </div>
           <div class="card-action">
-            <a href="https://jetbrains.com/idea/" class="waves-effect waves-light teal btn">Get Intellij IDEA here</a>
+            <a href="https://jetbrains.com/idea/" class="waves-effect waves-light teal btn">Download Intellij IDEA</a>
           </div>
         </div>
       </div>
       <div class="col s12 m6">
-          <div class="card grey lighten-4 materialboxed">
+          <div class="card grey lighten-4">
             <div class="card-content">
               <span class="card-title">
                 Forge MDK
@@ -74,8 +80,8 @@
               </strong></p>
             </div>
             <div class="card-action">
-              <a href="https://files.minecraftforge.net/" class="waves-effect waves-light teal btn">Get Forge MDK here</a>
-              <a href="https://files.minecraftforge.net/" class="waves-effect waves-light teal btn">Support the Forge team here</a>
+              <a href="https://files.minecraftforge.net/" class="waves-effect waves-light teal btn">Download Forge</a>
+              <a href="https://www.patreon.com/LexManos/" class="waves-effect waves-light teal btn">Support Forge</a>
             </div>
           </div>
         </div>
@@ -93,67 +99,113 @@
         </p>
       </div>
       <div class="col s12 m4">
-        <img class="responsive-img materialboxed tooltipped" data-position="left" data-tooltip="Image 1" src="img/projectimport.png" alt="Import Project">
-        <img class="responsive-img materialboxed tooltipped" data-position="left" data-tooltip="Image 2" src="img/gradleimport.png" alt="Gradle Import Settings">
+        <div class="card tooltipped" data-position="right" data-tooltip="Image 1">
+          <div class="card-image">
+            <img class="responsive-img materialboxed" src="img/projectimport.png" alt="Import Project">
+          </div>
+        </div>
+        <div class="card tooltipped" data-position="right" data-tooltip="Image 2">
+          <div class="card-image">
+            <img class="responsive-img materialboxed" src="img/gradleimport.png" alt="Gradle Import Settings">
+          </div>
+        </div>
       </div>
     </div>
     <!-- Setting up the Workspace -->
     <div class="row">
-      <div class="col s12 m8">
+      <div class="col s12">
         <h4 class="blue-grey-text text-darken-2">
           Setting up the Workspace
         </h4>
         <p class="flow-text">
           Now you have created the project, you need to setup the workspace. This requires changing the build.gradle file a little bit, and running 2 gradle tasks.
         </p>
-        <h4 class="center teal-text">
-          Setting up the build.gradle file
-        </h4>
+      </div>
+    </div>
+    <!-- Setting up the build.gradle file -->
+    <div class="row">
+      <h4 class="center teal-text">
+        Setting up the build.gradle file
+      </h4>
+      <div class="col s12 m4">
         <p class="flow-text">
-          When setting up the build.gralde file, it is best to make a gradle config, this will make it easier for you to change version numbers. So open your 'gradle.properties' file and make it some something along the lines of...
-        </p>
-        <div class="row">
-          <div class="col s12 m6">
-            <h5 class="center">
-              Template
-            </h5>
-            <div class="card-panel blue-grey white-text">
-              <code>
-                org.gradle.jvmargs=-Xmx3G<br>
-                <br>
-                mc_version=[mc version]<br>
-                forge_version=[forge version]<br>
-                forge_mappings=[mcp version]<br>
-                <br>        
-                mod_name=[mod name]<br>
-                mod_version=[mod version]<br>
-              </code>
-            </div>
-          </div>
-          <div class="col s12 m6">
-            <h5 class="center">
-              Example
-            </h5>
-            <div class="card-panel blue-grey white-text">
-              <code>
-                org.gradle.jvmargs=-Xmx3G<br>
-                <br>
-                mc_version=1.12.2<br>
-                forge_version=latest<br>
-                forge_mappings=20180618<br>
-                <br>        
-                mod_name=elementalgems<br>
-                mod_version=1.0.0<br>
-              </code>
-            </div>
-          </div>
-        </div>
-        <p class="flow-text">
-          
+          When setting up the build.gralde file, it is best to make a gradle config, this will make it easier for you to change version numbers. So open your '<code>gradle.properties</code>' file, and fill it using the template.
         </p>
       </div>
-      <div class="col s12 m4">
-        <img src="" alt="">
+      <h5 class="center">
+        <code>gradle.properties</code>
+      </h5>
+      <div class="col s6 m4">
+        <h5 class="center">
+          Template
+        </h5>
+        <div class="card-panel blue-grey white-text">
+          <code>
+            <pre>org.gradle.jvmargs=-Xmx3G
+
+mc_version=[mc version]
+forge_version=[forge version]
+forge_mappings=[mcp version]
+
+mod_name=[mod name]
+mod_version=[mod version]</pre>
+          </code>
+        </div>
+      </div>
+      <div class="col s6 m4">
+        <h5 class="center">
+          Example
+        </h5>
+        <div class="card-panel blue-grey white-text">
+          <code>
+            <pre>org.gradle.jvmargs=-Xmx3G
+
+mc_version=1.12.2
+forge_version=latest
+forge_mappings=20180618
+
+mod_name=elementalgems
+mod_version=1.0.0</pre>
+          </code>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <p class="flow-text">
+          With that in place, you need to change the build.gradle file itself to use your newly set config values. To do this you need to find where it says "apply plugin: 'net.minecraftforge.gradle.forge'", and only edit after this point unless you know what you are doing. To start with you will want to change the version, group, and archiveBaseName (see '<code>build.gradle</code>').
+        </p>
+      </div>
+      <div class="col s12 m6">
+        <h5 class="center">
+          <code>build.gradle</code>
+        </h5>
+        <div class="card-panel blue-grey white-text">
+          <div class="card-content">
+            <code>
+              <pre>buildscript {...}
+// Do not edit this line or any above it
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+version = mod_version
+group = "io.github.bluemonster122.modname"
+archivesBaseName = mod_name
+
+sourceCompatibility = targetCompatibility = '1.8'
+compileJava {
+  sourceCompatibility = targetCompatibility = '1.8'
+}
+
+minecraft {
+  version = "${mc_version}-${forge_version}"
+  runDir = "run"
+  mappings = forge_mappings
+}
+
+dependencies {}
+
+processResources {...}</pre>
+            </code>
+          </div>
+        </div>
       </div>
     </div>
   </main>
