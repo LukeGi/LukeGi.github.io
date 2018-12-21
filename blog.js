@@ -11,10 +11,7 @@ document.addEventListener('DOMContentLoaded', (_) => {
   if (fetch) {
     fetch('/blog/bloginfo.json')
       .then((data) => data.json())
-      .then((jsonData) => {
-        blogs = jsonData.blogs;
-        console.log(blogs);
-      });
+      .then((jsonData) => (blogs = jsonData.blogs));
     fetch('/blog/template.html').then((data) =>
       data.text().then((data) => (blogTemplate = data))
     );
@@ -68,7 +65,6 @@ function search() {
       }
     }
   }
-  console.log(blogMatches);
   if (searchResults) {
     searchResults.innerHTML = '';
   }
