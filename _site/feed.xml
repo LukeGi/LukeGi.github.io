@@ -1,23 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-21T16:49:33+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuHeGi</title><subtitle>A website and blog by my design using Jekyll.</subtitle><entry><title type="html">My A Levels</title><link href="http://localhost:4000/2018/12/17/my-a-levels.html" rel="alternate" type="text/html" title="My A Levels" /><published>2018-12-17T00:00:00+00:00</published><updated>2018-12-17T00:00:00+00:00</updated><id>http://localhost:4000/2018/12/17/my-a-levels</id><content type="html" xml:base="http://localhost:4000/2018/12/17/my-a-levels.html">&lt;h2 id=&quot;what-i-achieved&quot;&gt;What I Achieved&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-21T17:08:26+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuHeGi</title><subtitle>A website and blog by my design using Jekyll.</subtitle><entry><title type="html">Using Jekyll</title><link href="http://localhost:4000/2018/12/21/using-jekyll.html" rel="alternate" type="text/html" title="Using Jekyll" /><published>2018-12-21T00:00:00+00:00</published><updated>2018-12-21T00:00:00+00:00</updated><id>http://localhost:4000/2018/12/21/using-jekyll</id><content type="html" xml:base="http://localhost:4000/2018/12/21/using-jekyll.html">&lt;h2 id=&quot;you-did-what&quot;&gt;You did what?&lt;/h2&gt;
 
-&lt;p&gt;During my time at sixth form, I studied 3 subjects and passed them all. I studied:&lt;/p&gt;
+&lt;p&gt;Today I used Jekyll for the first time. I used it to publish this website on Github Pages. The experience of learning how to use it was very smooth, and I found it very easy. &lt;!--more--&gt;As is normal for me, however, I struggled setting it up straight away, which led to me getting confused and it taking a couple of hours before I could start actually doing anything interesting.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;A Level Math&lt;/strong&gt; - A*
-&lt;!--more--&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AS Level Psychology&lt;/strong&gt; - B&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;BTEC Level 3 ICT&lt;/strong&gt; - D*D&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;what-did-i-use-to-learn-how-to-use-jekyll&quot;&gt;What did I use to learn how to use Jekyll?&lt;/h2&gt;
 
-&lt;p&gt;With these qualifications I was easily able to secure a place at university, studing the degree of my choice. I chose to study Computer Science (Games Development) at Wolverhampton University.&lt;/p&gt;
+&lt;p&gt;Well, it turns out that the people who make it are really good at making tutorials; they have a &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/01-setup/&quot;&gt;step-by-step guide&lt;/a&gt; for how to use it.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-is-an-a-level&quot;&gt;What Is An A Level&lt;/h2&gt;
+&lt;h2 id=&quot;what-is-a-jekyll&quot;&gt;What is a Jekyll&lt;/h2&gt;
 
-&lt;p&gt;Advanced Level qualifications (A Levels) are a subject-based qualification that can lead to university, further study, training or work. Usually someone studies 3+ A Levels over 2 years of their life.&lt;/p&gt;
-
-&lt;p&gt;Advanced Subsidiary Level (AS Level) qualifications represent the first half of an A Level.&lt;/p&gt;
-
-&lt;p&gt;There are some other qualification that are equivalent to an A Level, one of those being a Level 3 BTEC (Business and Technology Education Council) qualification.&lt;/p&gt;</content><author><name>LuHeGi</name></author><summary type="html">What I Achieved During my time at sixth form, I studied 3 subjects and passed them all. I studied: A Level Math - A*</summary></entry><entry><title type="html">My GCSEs</title><link href="http://localhost:4000/2018/12/17/My-GCSEs.html" rel="alternate" type="text/html" title="My GCSEs" /><published>2018-12-17T00:00:00+00:00</published><updated>2018-12-17T00:00:00+00:00</updated><id>http://localhost:4000/2018/12/17/My-GCSEs</id><content type="html" xml:base="http://localhost:4000/2018/12/17/My-GCSEs.html">&lt;h2 id=&quot;what-i-achieved&quot;&gt;What I Achieved&lt;/h2&gt;
+&lt;p&gt;Jekyll is a static site generator, which means it makes it easier to turn your thoughts into webpages. It works by putting blog posts into templates. It also offers a system called &lt;em&gt;Liquid&lt;/em&gt;, which allows you to inject information like the page title or post date into your code by using the following syntax…  &lt;code class=&quot;highlighter-rouge&quot;&gt;{{ page.title }}&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;{{ post.date | date_to_string }}&lt;/code&gt; . This system works really well for blogs (which is what it was design for, so that makes sense.)&lt;/p&gt;</content><author><name>LuHeGi</name></author><summary type="html">You did what? Today I used Jekyll for the first time. I used it to publish this website on Github Pages. The experience of learning how to use it was very smooth, and I found it very easy.</summary></entry><entry><title type="html">My GCSEs</title><link href="http://localhost:4000/2018/12/17/My-GCSEs.html" rel="alternate" type="text/html" title="My GCSEs" /><published>2018-12-17T00:00:00+00:00</published><updated>2018-12-17T00:00:00+00:00</updated><id>http://localhost:4000/2018/12/17/My-GCSEs</id><content type="html" xml:base="http://localhost:4000/2018/12/17/My-GCSEs.html">&lt;h2 id=&quot;what-i-achieved&quot;&gt;What I Achieved&lt;/h2&gt;
 
 &lt;p&gt;I studied my GCSEs from 2012-2015 and achieved a pass in all 11 subjects:&lt;/p&gt;
 
@@ -58,4 +49,23 @@
   &lt;li&gt;&lt;strong&gt;Netherlands:&lt;/strong&gt; Not quite a Diploma Hoger Algemeen Voortgezet Onderwijs / Diploma Voorbereidend Wetenschappelijk Onderwijs&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Norway:&lt;/strong&gt; Vitnemal – grunnskolen&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Slovakia:&lt;/strong&gt; Gymnasium&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>LuHeGi</name></author><summary type="html">What I Achieved I studied my GCSEs from 2012-2015 and achieved a pass in all 11 subjects: Math - A* Chemistry - A Physics - A</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>LuHeGi</name></author><summary type="html">What I Achieved I studied my GCSEs from 2012-2015 and achieved a pass in all 11 subjects: Math - A* Chemistry - A Physics - A</summary></entry><entry><title type="html">My A Levels</title><link href="http://localhost:4000/2018/12/17/my-a-levels.html" rel="alternate" type="text/html" title="My A Levels" /><published>2018-12-17T00:00:00+00:00</published><updated>2018-12-17T00:00:00+00:00</updated><id>http://localhost:4000/2018/12/17/my-a-levels</id><content type="html" xml:base="http://localhost:4000/2018/12/17/my-a-levels.html">&lt;h2 id=&quot;what-i-achieved&quot;&gt;What I Achieved&lt;/h2&gt;
+
+&lt;p&gt;During my time at sixth form, I studied 3 subjects and passed them all. I studied:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A Level Math&lt;/strong&gt; - A*
+&lt;!--more--&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AS Level Psychology&lt;/strong&gt; - B&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;BTEC Level 3 ICT&lt;/strong&gt; - D*D&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With these qualifications I was easily able to secure a place at university, studing the degree of my choice. I chose to study Computer Science (Games Development) at Wolverhampton University.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-an-a-level&quot;&gt;What Is An A Level&lt;/h2&gt;
+
+&lt;p&gt;Advanced Level qualifications (A Levels) are a subject-based qualification that can lead to university, further study, training or work. Usually someone studies 3+ A Levels over 2 years of their life.&lt;/p&gt;
+
+&lt;p&gt;Advanced Subsidiary Level (AS Level) qualifications represent the first half of an A Level.&lt;/p&gt;
+
+&lt;p&gt;There are some other qualification that are equivalent to an A Level, one of those being a Level 3 BTEC (Business and Technology Education Council) qualification.&lt;/p&gt;</content><author><name>LuHeGi</name></author><summary type="html">What I Achieved During my time at sixth form, I studied 3 subjects and passed them all. I studied: A Level Math - A*</summary></entry></feed>
