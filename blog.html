@@ -1,17 +1,19 @@
 ---
-layout: default
-title: Blog
+layout: blog
+title: LHG Blog
 ---
 
-<h1>Latest Posts</h1>
+<h1>
+  Latest Posts
+  <span class="author">Click a post to open it</span>
+</h1>
 
-<ul>
-  {%- for post in site.posts -%}
-  <li>
-    <h2>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    <p>{{ post.excerpt }}</p>
-  </li>
-  {%- endfor -%}
-</ul>
+{%- for post in site.posts -%}
+<div class="post" onclick="location.pathname = '{{ post.url }}'">
+  <h2>
+    {{ post.title }}
+    <span class="date">{{ post.date | date: '%Y/%m/%d' }}</span>
+  </h2>
+  <div class="excerpt">{{ post.excerpt }}</div>
+</div>
+{%- endfor -%}

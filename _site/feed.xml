@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-21T14:26:07+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuHeGi</title><subtitle>A website and blog by my design using Jekyll.</subtitle><entry><title type="html">My GCSEs</title><link href="http://localhost:4000/2018/12/17/My-GCSEs.html" rel="alternate" type="text/html" title="My GCSEs" /><published>2018-12-17T00:00:00+00:00</published><updated>2018-12-17T00:00:00+00:00</updated><id>http://localhost:4000/2018/12/17/My-GCSEs</id><content type="html" xml:base="http://localhost:4000/2018/12/17/My-GCSEs.html"></content><author><name>LuHeGi</name></author><summary type="html"></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-21T15:45:22+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LuHeGi</title><subtitle>A website and blog by my design using Jekyll.</subtitle><entry><title type="html">My A Levels</title><link href="http://localhost:4000/2018/12/17/my-a-levels.html" rel="alternate" type="text/html" title="My A Levels" /><published>2018-12-17T00:00:00+00:00</published><updated>2018-12-17T00:00:00+00:00</updated><id>http://localhost:4000/2018/12/17/my-a-levels</id><content type="html" xml:base="http://localhost:4000/2018/12/17/my-a-levels.html">&lt;h2 id=&quot;what-i-achieved&quot;&gt;What I Achieved&lt;/h2&gt;
+
+&lt;p&gt;During my time at sixth form, I studied 3 subjects and passed them all. I studied:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A Level Math&lt;/strong&gt; - A*
+&lt;!--more--&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AS Level Psychology&lt;/strong&gt; - B&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;BTEC Level 3 ICT&lt;/strong&gt; - D*D&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With these qualifications I was easily able to secure a place at university, studing the degree of my choice. I chose to study Computer Science (Games Development) at Wolverhampton University.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-an-a-level&quot;&gt;What Is An A Level&lt;/h2&gt;
+
+&lt;p&gt;Advanced Level qualifications (A Levels) are a subject-based qualification that can lead to university, further study, training or work. Usually someone studies 3+ A Levels over 2 years of their life.&lt;/p&gt;
+
+&lt;p&gt;Advanced Subsidiary Level (AS Level) qualifications represent the first half of an A Level.&lt;/p&gt;
+
+&lt;p&gt;There are some other qualification that are equivalent to an A Level, one of those being a Level 3 BTEC (Business and Technology Education Council) qualification.&lt;/p&gt;</content><author><name>LuHeGi</name></author><summary type="html">What I Achieved During my time at sixth form, I studied 3 subjects and passed them all. I studied: A Level Math - A*</summary></entry><entry><title type="html">My GCSEs</title><link href="http://localhost:4000/2018/12/17/My-GCSEs.html" rel="alternate" type="text/html" title="My GCSEs" /><published>2018-12-17T00:00:00+00:00</published><updated>2018-12-17T00:00:00+00:00</updated><id>http://localhost:4000/2018/12/17/My-GCSEs</id><content type="html" xml:base="http://localhost:4000/2018/12/17/My-GCSEs.html">&lt;h2 id=&quot;what-i-achieved&quot;&gt;What I Achieved&lt;/h2&gt;
+
+&lt;p&gt;I studied my GCSEs from 2012-2015 and achieved a pass in all 11 subjects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Math&lt;/strong&gt; - A*&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chemistry&lt;/strong&gt; - A&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Physics&lt;/strong&gt; - A
+&lt;!--more--&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Biology&lt;/strong&gt; - B&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;English Language&lt;/strong&gt; - B&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;IT&lt;/strong&gt; - B&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Health and Social Care&lt;/strong&gt; - C&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;English Literature&lt;/strong&gt; - C&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Catering&lt;/strong&gt; - C&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;History&lt;/strong&gt; - C&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;French&lt;/strong&gt; - C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-is-a-gcse&quot;&gt;What Is A GCSE&lt;/h2&gt;
+
+&lt;p&gt;For people who are not native to the England or Wales, GCSE stands for General Certificate of Secondary Education… here are some equivalents from around the world:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Scotland:&lt;/strong&gt; Standards qualification&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ireland:&lt;/strong&gt; Junior Certificate&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;USA:&lt;/strong&gt; roughly 5-10 GCSEs = a high school diploma&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;France:&lt;/strong&gt; Not quite a Baccalaureate&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Germany:&lt;/strong&gt; Realschulabschluss or Mittlerer Schulabschluss&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Greece:&lt;/strong&gt; Apolytirion of Gymnasio&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cyprus:&lt;/strong&gt; Not quite a Apolytirion&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spain:&lt;/strong&gt; Graduado de Educacion Secundaria&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Italy:&lt;/strong&gt; Not quite a Diploma di Maturità&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Portugal:&lt;/strong&gt; Certificado de fim de Estudos Secundários&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bulgaria:&lt;/strong&gt; Diploma za Sredno Obrazovanie&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poland:&lt;/strong&gt; Not quite a Matura&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lithuania:&lt;/strong&gt; Brandos Atestatas or Pagrindinio Issilavinimo Pažymejimas&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Belgium:&lt;/strong&gt; Not quite a Diploma van secundair Onderwijs/Certificat d’Enseignement Secondaire / Superieur/Abschlusszeugnis der Oberstufe des Sekundarunterrichts&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Netherlands:&lt;/strong&gt; Not quite a Diploma Hoger Algemeen Voortgezet Onderwijs / Diploma Voorbereidend Wetenschappelijk Onderwijs&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Norway:&lt;/strong&gt; Vitnemal – grunnskolen&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slovakia:&lt;/strong&gt; Gymnasium&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>LuHeGi</name></author><summary type="html">What I Achieved I studied my GCSEs from 2012-2015 and achieved a pass in all 11 subjects: Math - A* Chemistry - A Physics - A</summary></entry></feed>
