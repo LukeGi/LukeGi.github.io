@@ -1,6 +1,8 @@
 * { border: 0; margin: 0; padding: 0; background-color: #dddddd; color: #222222; line-height: 125%; box-sizing: border-box; }
 
 body { font-family: 'Roboto', sans-serif; }
+body > header { display: block; padding: 0.5em 0; font-size: 24px; color: #555555; font-weight: 300; text-align: center; border-bottom: 1px solid #888888; }
+body > header a { color: currentColor !important; text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 600; margin-top: 0.5em; margin-bottom: 0.5em; text-transform: capitalize; }
 
@@ -10,13 +12,10 @@ a:hover, li > a { color: #555555; }
 
 li > a:hover { color: #888888; }
 
-header { display: block; padding: 0.5em 0; font-size: 24px; color: #555555; font-weight: 300; text-align: center; border-bottom: 1px solid #888888; }
-
-header a { color: currentColor !important; text-decoration: none; }
-
 section { margin: 1em 0; }
 
 main { margin: 0 auto; max-width: 90em; padding: 1em 1.6em; }
+main header { display: grid; grid-template-columns: auto auto 1fr; grid-gap: 0.5em; align-items: baseline; }
 
 .search-form { display: grid; grid-template-columns: 1fr auto; margin-bottom: 0.5em; }
 

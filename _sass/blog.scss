@@ -10,6 +10,19 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  > header {
+    display: block;
+    padding: 0.5em 0;
+    font-size: 24px;
+    color: #555555;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 1px solid #888888;
+    a {
+      color: currentColor !important;
+      text-decoration: none;
+    }
+  }
 }
 
 h1,
@@ -38,21 +51,6 @@ li > a:hover {
   color: #888888;
 }
 
-header {
-  display: block;
-  padding: 0.5em 0;
-  font-size: 24px;
-  color: #555555;
-  font-weight: 300;
-  text-align: center;
-  border-bottom: 1px solid #888888;
-}
-
-header a {
-  color: currentColor !important;
-  text-decoration: none;
-}
-
 section {
   margin: 1em 0;
 }
@@ -61,6 +59,12 @@ main {
   margin: 0 auto;
   max-width: 90em;
   padding: 1em 1.6em;
+  header {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-gap: 0.5em;
+    align-items: baseline;
+  }
 }
 
 .search-form {
