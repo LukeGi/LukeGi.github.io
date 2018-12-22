@@ -14,15 +14,31 @@
         <p class="date">{{ page.date | date: '%Y/%m/%d' }}</p>
         <p class="author">
           {%- assign author = site.authors | where: "short_name", page.author |
-          first -%} {%- if author -%} - {{ author.name }}
+          first -%} {%- if author -%} written by {{ author.name }}
           <!-- <a href="{{ author.url }}">{{ author.name }}</a> -->
           {%- endif -%}
         </p>
       </header>
-      {{ content }}
+      {{ content }} {%- if author -%}
+      <h2 class="more-posts">
+        More Posts
+        <span class="author">written by {{ author.name }}</span>
+      </h2>
+      <div class="post-cards">
+        {%- assign filtered_posts = site.posts | where: "author", page.author |
+        where_exp:"item", "item.title != page.title" -%} {%- for post in
+        filtered_posts -%}
+        <div class="post-card">
+          <h2>{{ post.title }}</h2>
+          <span class="date">{{ post.date | date: '%Y/%m/%d' }}</span>
+          <a href="{{ post.url }}">Read</a>
+        </div>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
     </main>
     <p class="footer">
-        &copy; Copyright {{ 'now' | date: '%Y' }} - Luke Gilfoyle
+      &copy; Copyright {{ 'now' | date: '%Y' }} - Luke Gilfoyle
     </p>
   </body>
 </html>
