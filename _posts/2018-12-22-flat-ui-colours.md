@@ -22,4 +22,4 @@ My top 5 favourite colours from the GB Palette on [FlatUIColors][fuic] are:
 - <span style="color:#40739e">**Naval** - #40739e</span>
 - <span style="color:#e84118">**Nasturcian Flower** - #e84118</span>
 
-[fuic]: https://flatuicolors.com;
+[fuic]: https://flatuicolors.com
