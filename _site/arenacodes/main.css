@@ -1,0 +1,87 @@
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 1fr 50px;
+  min-height: 100vh;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+header {
+  display: grid;
+  text-align: center;
+  background-color: #111;
+  color: #ddd;
+}
+
+header > h1 {
+  margin: 1rem 0 0 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 5rem;
+}
+
+header > p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+main {
+  background-color: #222;
+}
+
+main > h2 {
+  margin: 1rem 0;
+  text-align: center;
+  color: #ddd;
+  font-size: 3rem;
+}
+
+main > ul {
+  margin: 1rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1rem;
+}
+
+main > ul > li {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 0;
+  padding: 1rem 1.8rem;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+main > ul > li:hover {
+  background-color: #0ae;
+  transition: 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+main > ul > li:active {
+  background-color: #2bf;
+}
+
+main > p {
+  margin: 2rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+main > p > a {
+  color: #fff;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  color: #888;
+}
