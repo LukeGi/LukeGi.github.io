@@ -71,7 +71,7 @@ main > ul > li:active {
 }
 
 main > p {
-  margin: 2rem 0;
+  margin: 2rem 1rem;
   text-align: center;
   color: #fff;
 }
@@ -84,4 +84,30 @@ footer {
   background-color: #111;
   text-align: center;
   color: #888;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    grid-template-rows: auto 1fr 50px;
+  }
+
+  header > h1 {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+
+  header > p {
+    margin: 0.5rem 1rem;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+
+  main > h2 {
+    font-size: 1.5rem;
+  }
+  main > ul {
+    grid-template-columns: 1fr;
+  }
 }
