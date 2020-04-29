@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 During my time at sixth form, I studied 3 subjects and passed them all. I studied:
 
-- **A Level Math** - A\*
+- **A Level Math** - A
   <!--more-->
 - **AS Level Psychology** - B
 - **BTEC Level 3 ICT** - D\*D
